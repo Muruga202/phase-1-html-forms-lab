@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>My Awesome Company Contact Page</title>
   </head>
@@ -10,39 +11,32 @@
     <h1>Company Inc.</h1>
     <h2>For all your incorporated company needs</h2>
 
-    <!-- First, create a form tag where our inputs will be nested -->
+    <form action="#" method="post">
+      <!-- Full Name -->
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="full-name" placeholder="Enter Name" required>
+      
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter Email" required>
+      
+      <!-- Telephone -->
+      <label for="phone">Telephone:</label>
+      <input type="tel" id="phone" name="telephone" placeholder="Enter Telephone (optional)">
+      
+      <!-- Message -->
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Enter Message"></textarea>
+      
+      <!-- Checkbox -->
+      <label for="subscribe">
+        <input type="checkbox" id="subscribe" name="subscribe">
+        Subscribe to our newsletter
+      </label>
+      
+      <!-- Submit Button -->
+      <button type="submit">Submit</button>
+    </form>
 
-
-      <!-- Add a label for 'fullname'-->
-
-      <!-- Add a text input with the id and name attributes set to 'fullname' -->
-      <!-- Include the place holder text "Enter Name" and make this input required -->
-
-
-      <!-- Add a label for 'email'-->
-
-      <!-- Add a email input with the id and name attributes set to 'email' -->
-      <!-- Include the place holder text "Enter Email" and make this input required -->
-
-
-      <!-- Add a label for 'phone'-->
-
-      <!-- Add a telephone input with the id and name attributes set to 'phone' -->
-      <!-- Include the place holder text "Enter Telephone (optional)" -->
-
-
-      <!-- Add a label for 'message'-->
-
-      <!-- Add a textarea tag with the id and name attributes set to 'message' -->
-      <!-- Include the place holder text "Enter Message" -->
-
-
-      <!-- Add a checkbox input with the id set to 'checkbox' -->
-
-
-
-      <!-- Add an input with the type set to 'submit' -->
-
-    
   </body>
 </html>
